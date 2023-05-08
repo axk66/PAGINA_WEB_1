@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 
-/* Estilos por defecto para todos los tamaños de pantalla */
+/* ----------------------ESTILOS POR DEFECTO PARA EL CONTENEDOR PRINCIPAL-------------------------------- */
 .container2 {
     max-width: 800px;
     margin: 0 auto;
@@ -54,6 +54,10 @@
   }
   
 
+
+
+
+  /* ------------------------------------------MEDIA QUERIES---------------------------------------------- */
 
   /* Media queries para pantallas de tamaño pequeño, como smartphones */
   @media only screen and (max-width: 600px) {

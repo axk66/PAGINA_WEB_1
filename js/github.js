@@ -1,3 +1,13 @@
+
+// Este código es una función en JavaScript que se utiliza para buscar información de un usuario en 
+// Github a través de la API de Github. La función utiliza el valor del campo de entrada en la página web, 
+// donde el usuario ingresa el nombre del usuario de Github que desea buscar. Luego, utiliza el valor ingresado 
+// para realizar una solicitud a la API de Github, que devuelve los detalles del usuario en formato JSON. 
+// Si la solicitud se realiza correctamente, la función utiliza el JSON devuelto para mostrar los detalles del 
+// perfil del usuario en la página web. Si la solicitud no es exitosa, la función muestra un mensaje de alerta 
+// que indica el motivo del error. Este código es útil para cualquier persona que desee mostrar detalles de 
+// perfil de un usuario de Github en su sitio web o aplicación web.
+
 const searchGithub = async () => {
     const username = document.getElementById("searchInput").value;
     const response = await fetch(`https://api.github.com/users/${username}`);
