@@ -10,7 +10,9 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- LINKEO CSS -->
     <link rel="stylesheet" href="css/estilos.css">
+    <!-- <link rel="stylesheet" href="css/estilosregistro.css"> -->
     <link rel="stylesheet" href="css/estilosregistro.css">
+    <link rel="stylesheet" href="css/estiloslogin.css">
     <!-- FUENTES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -83,109 +85,41 @@
       </div> 
       
 
-
-
-
-
-
     <main class="container mt-5">
-        <div class="contenedorfoto2">
-            <img src="img/logozalorcabeza.png" alt="zalorrrr">
+        
+   
+
+        <div class="login-box">
+            <h2>Iniciar sesión</h2>
+            <form>
+                <label for="username">Nombre de usuario:</label>
+                <input type="text" id="username" name="username" required>
+    
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+    
+                <input type="submit" value="Iniciar sesión">
+            </form>
         </div>
-        <div class="textolanzamiento">
-            <p>♡ 🌢 ÚLTIMOS LANZAMIENTOS 🌢 ♡</p>
-        </div>
-        <div class="row">
+          
+    
+
+    
+        
 
 
 
-            <div class="col-md-4 mb-4">
 
-                <div class="card border-0 text-center">
-                    <img src="img/POLERA_CYBERPUNK_TEXTO_JUICE-transformed.png" class="card-img-top" alt="Producto 1">
-                    <div class="card-body">
-                        <h5 class="card-title">T-SHIRT CYBERPUNK ZALORCRY</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-                            totam
-                            quae cum explicabo voluptates corporis natus eveniet <br><br>$18.990</p>
-                        <!-- BOTON AGREGAR AL CARRITO -->
-                        <a href="#" class="btn btn-primary">Agregar al carrito ⊹</a>
-                    </div>
-                    <div class="card-footer border-0">
-                        <small class="text-muted">HASTA AGOTAR STOCK</small>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4 mb-4">
-                <div class="card border-0 text-center">
-                    <img src="img/polera6.png" class="card-img-top"
-                        alt="Producto 2">
-                    <div class="card-body">
-                        <h5 class="card-title">T-SHIRT LOGO COSTADO</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-                            totam
-                            quae cum explicabo voluptates corporis natus eveniet <br><br>$17.990</p>
-                        <a href="#" class="btn btn-primary">Agregar al carrito ⊹</a>
-                    </div>
-                    <div class="card-footer border-0">
-                        <small class="text-muted">HASTA AGOTAR STOCK</small>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="card border-0 text-center">
-                    <img src="img/POLERA_OVERSIZED_LOGO_Y_MASCOTA_CROMO-transformed.png" class="card-img-top"
-                        alt="Producto 3">
-                    <div class="card-body">
-                        <h5 class="card-title">T-SHIRT LOGO PECHO</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Doloribus
-                            totam
-                            quae cum explicabo voluptates corporis natus eveniet <br><br>$17.990</p>
-                        <a href="#" class="btn btn-primary">Agregar al carrito ⊹</a>
-                    </div>
-                    <div class="card-footer border-0">
-                        <small class="text-muted">HASTA AGOTAR STOCK</small>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-        <div class="textolanzamiento">
-            <p>♡ ✞ PRÓXIMAMENTE ✞ ♡</p>
-        </div>
-        <!-- CARRUSEL DE IMÁGENES -->
-        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="img/producto-1.jpg" class="d-block w-100" alt="Imagen del carrusel 1">
-                </div>
-                <div class="carousel-item">
-                    <img src="img/producto-2.jpg" class="d-block w-100" alt="Imagen del carrusel 2">
-                </div>
-                <div class="carousel-item">
-                    <img src="img/producto-3.jpg" class="d-block w-100" alt="Imagen del carrusel 3">
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Anterior</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Siguiente</span>
-            </a>
-        </div>
-        <br><br><br><br><br>
     </main>
 
-    <footer>
+    <!-- <footer>
         © TODOS LOS DERECHOS RESERVADOS || ZALORCRY.CL 2023
-    </footer>
+    </footer> -->
 
     <!-- BOOTSTRAP JAVASCRIPT -->
+    <script src="js/login.js"></script>
+    <script src="js/registro.js"></script>
+    <script src="js/github.js"></script>
     <script src="js/barratexto.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -196,6 +130,3 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-</body>
-
-</html>

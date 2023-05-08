@@ -9,9 +9,20 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- LINKEO CSS -->
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- <link rel="stylesheet" href="css/estilosregistro.css"> -->
     <link rel="stylesheet" href="css/estilosgithub.css">
+    <!-- FUENTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap" rel="stylesheet">
+
+
+
+
     <style>
         body {
+
             background-image: url(https://thumbs.gfycat.com/OpulentElementaryIndianabat-size_restricted.gif);
             background-repeat: no-repeat;
             background-attachment: fixed;
@@ -26,9 +37,9 @@
 
 <body>
 
-    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
         <div class="container">
-            <a class="navbar-logo" href="index.html"><img src="img/zalorcryFINALPNGCOLORSOLIDO.png" alt="zalorfinal"></a>
+            <a class="navbar-logo" href="index.html"><img src="img/zalorcryFINALPNGCOLORSOLIDO.png" alt="cabeza"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -47,58 +58,64 @@
                     <li class="nav-item">
                         <a class="nav-link" href="contacto.html">CONTACTO</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="github.html">GITHUB</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="registro.html">REGISTRARSE</a>
+                    </li> -->
                 </ul>
                 <a class="navbar-carrito" href="carrito.html"><img src="img/carro.png" alt="carrito"></a>
+                <a class="navbar-registro" href="registro.html" alt="registro">REGISTRARSE</a>
+                <a class="navbar-login" href="login.html" alt="login">LOGIN</a>
             </div>
         </div>
-    </nav> -->
+    </nav>
+
 
 
     <!-- <div class="text-bar">
+        <p class="text">COLECCIÓN ZALORBLACK DISPONIBLE || HASTA AGOTAR STOCK</p>
+    </div> -->
+
+      
+    <div class="text-bar">
         <span id="text-change"></span>
-      </div>  -->
-
-      <div class="container">
-        <h1>Buscador Github</h1>
-        <div class="searchBox">
-            <input type="text" id="searchInput" placeholder="Ingresa username de Github">
-            <button onclick="searchGithub()">Buscar</button>
-        </div>
-
-        <div class="details" id="result"></div>
-
-    </div>
+      </div> 
       
 
+
+
+    <main class="container mt-5">
+        
+
+
+        <div class="container2">
+            <h1>Buscador Usuario GitHub</h1>
+            <div class="searchBox">
+                <input class="inputcito" type="text" id="searchInput" placeholder="Ingresa un username de GitHub">
+                <button class="boton" onclick="searchGithub()">Buscar</button>
+            </div>
     
+            <div class="details" id="result"></div>
+    
+        </div>
 
 
 
+ 
 
+        
+        <br><br><br><br><br>
+    </main>
 
-
-
-
-
-
-        <!-- <br>
-
-        <div class="contenedorfoto">
-            <img src="img/zalor_logo.png" alt="zalorrrr">
-        </div> -->
-
-
-
-    <!-- </main> -->
-
-    <!-- <footer>
+    <footer>
         © TODOS LOS DERECHOS RESERVADOS || ZALORCRY.CL 2023
-    </footer> -->
+    </footer>
 
     <!-- BOOTSTRAP JAVASCRIPT -->
     <script src="js/github.js"></script>
     <script src="js/barratexto.js"></script>
-    <script src="js/formulario.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -108,6 +125,3 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-</body>
-
-</html>

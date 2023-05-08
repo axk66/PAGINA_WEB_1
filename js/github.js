@@ -13,8 +13,8 @@ const searchGithub = async () => {
                 </div>
                 <div class="profile-details">
                     <h2 class="name">${data.name || data.login}</h2>
-                    <p class="username">@${data.login}</p>
-                    <p class="bio">${data.bio || 'Esta cuenta no tiene biografia.'}</p>
+                    <p class="username">Username: @${data.login}</p>
+                    <p class="bio">Biografía: ${data.bio || 'Esta cuenta no tiene biografia.'}</p>
                     <div class="stats">
                         <div>
                             <div class="stats-name">Repositorios Publicos</div>
@@ -31,16 +31,18 @@ const searchGithub = async () => {
                     </div>
                 <div class="media">
                     <p>
-                        <span class="media-value">${data.location || 'Ubicacion no disponible'}</span>
+                        <span class="media-value">${data.location || ' Ubicacion no disponible | '}</span>
+                    </p>
+                    
+                    <p>
+                        <span class="media-value">${data.blog || ' Youtube no disponible | '}</span>
+                    </p>
+                    
+                    <p>
+                        <span class="media-value">${data.twitter_username || ' Twitter no disponible | '}</span>
                     </p>
                     <p>
-                        <span class="media-value">${data.blog || 'Youtube no disponible'}</span>
-                    </p>
-                    <p>
-                        <span class="media-value">${data.twitter_username || 'Twitter no disponible'}</span>
-                    </p>
-                    <p>
-                        <span class="media-value">${data.company || 'Compania No disponible'}</span>
+                        <span class="media-value">${data.company || ' Compania No disponible '}</span>
                     </p>
                 </div>
             </div>

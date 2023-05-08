@@ -124,10 +124,27 @@ footer {
   }
   
   footer {
-	position: fixed;
+	
 	bottom: 0;
 	width: 100%;
+
   }
+
+
+  .navbar-registro, .navbar-login{
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+
+.navbar-registro:hover , .navbar-login:hover{
+    color: rgb(139, 2, 2);
+    text-decoration: none;
+}
+
+.navbar-login{
+	margin-left: 2%;
+}
 
 
   /* TEXTO DEBAJO DEL NAVBAR  */
