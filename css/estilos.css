@@ -2,6 +2,8 @@
 
 
 
+
+
 /* PAGINA PRINCIPAL INICIO */
 
 body {
@@ -177,13 +179,14 @@ footer {
 
 .form-group .invalid-feedback {
 	display: none;
-	color: #dc3545;
+	color: #ffea00;
 	font-size: 14px;
 }
 
 .form-group .is-invalid {
-	border-color: #dc3545;
+	border-color: #ffea00;
 	box-shadow: none;
+	outline-color: #861111;
 }
 
 .form-container {
@@ -317,6 +320,8 @@ footer {
 		/* Cambia el tamaño de fuente del botón */
 	}
 }
+
+
 
 
 
